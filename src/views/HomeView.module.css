@@ -1,0 +1,65 @@
+/* HomeView.module.css */
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .searchInput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .contactList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .contactItem {
+    padding: 10px 15px;
+    border-bottom: 1px solid #e0e0e0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .contactItem a {
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  .contactItem a:hover {
+    text-decoration: underline;
+  }
+  
+  .addContactLink {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #27ae60;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .addContactLink:hover {
+    background-color: #1e8449;
+  }
+  
+  .logo{
+    font-size: 40px;
+    margin-block: 5px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blueviolet;
+  }
